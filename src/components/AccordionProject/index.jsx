@@ -25,7 +25,7 @@ export default function AccordionProject() {
 
   return (
     <div className="wrapper">
-      <h1 className="header">Accordion Project</h1>
+      <h1 className="header">Accordion Project 1</h1>
 
       <div>
         <button onClick={() => setEnableMultiSelection(!enableMultiSelection)}>
