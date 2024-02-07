@@ -1,5 +1,15 @@
 import "./App.css";
-import AccordionProject from "./components/AccordionProject";
+import Accordion from "./components/Accordion";
+import RandomColorGenerator from "./components/RandomColorGenerator";
 
-const App = () => <AccordionProject />;
+function App() {
+    return (
+        <div className="App">
+            <Accordion />
+            <RandomColorGenerator />
+        </div>
+    )
+}
+
+
 export default App;

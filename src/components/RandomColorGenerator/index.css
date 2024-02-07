@@ -1,0 +1,13 @@
+.color-generator-container{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    margin-top: 50px;
+    padding-top: 28px;
+}
+
+.color-type-btns{
+    display: flex;
+    margin: 28px;
+}
