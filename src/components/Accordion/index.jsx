@@ -30,13 +30,9 @@ export default function Accordion() {
       <a href={url} target="_blank" rel="noopener noreferrer">
         <h1 className="header">Accordion UI</h1>
       </a>
-      <div className="code-con">
-        <button onClick={() => setEnableMultiSelection(!enableMultiSelection)}>
-          {enableMultiSelection
-            ? "opt Single Selection"
-            : "opt Multi Selection"}
-        </button>
-      </div>
+      <button onClick={() => setEnableMultiSelection(!enableMultiSelection)}>
+        {enableMultiSelection ? "opt Single Selection" : "opt Multi Selection"}
+      </button>
 
       {accordionData && accordionData.length > 0 ? (
         accordionData.map((dataItem) => (
