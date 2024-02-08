@@ -1,0 +1,22 @@
+.star-rating-container{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 48px;
+    background-color: #272727;
+}
+
+.active {
+    color:  #fff700;
+    cursor: pointer;
+}
+
+.inactive {
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.star-title{
+    color: white;
+}

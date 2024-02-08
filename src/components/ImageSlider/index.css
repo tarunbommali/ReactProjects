@@ -1,0 +1,29 @@
+.slide{
+    height: 400px;
+    width: 700px;
+    background-size: cover;
+    border-radius: 3px;
+}
+
+.slider-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-slider-container{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 48px;
+}
+
+.slide-left-button{
+    margin-left: 25px;
+}
+
+.slide-rigth-button{
+    margin-right: 25px;
+}
